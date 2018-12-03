@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Adlergang",
+    "address": "Große Gröpelgrube 45",
+    "accessibility": "nachts geschlossen",
+    "coords": "Lage53.87154510.692574",
+    "annotation": "Verbindung zu Nagels Gang und Vereinigungsgang",
+    "illustration": ""
+  },
+  {
+    "name": "Albrechts Gang",
+    "address": "Dr.-Julius-Leber-Straße",
+    "accessibility": "geschlossen",
+    "coords": "Lage53.86817510.692068",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Alter Posthof",
+    "address": "St.-Annen-Straße 14",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Bäcker Gang",
+    "address": "Engelsgrube 43",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Verbindung zu Lüngreens Gang",
+    "illustration": ""
+  },
+  {
+    "name": "Bäcker-Gang",
+    "address": "Glockengießerstraße 38",
+    "accessibility": "nachts geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Balhorns Gang",
+    "address": "Hundestraße 19",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Behrends Hof",
+    "address": "Stavenstraße",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Verbindung zur Vereinsstraße",
+    "illustration": ""
+  },
+  {
+    "name": "Bierspündergang",
+    "address": "Ellerbrook 6",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "1942 vollständig zerstört; an seiner Stelle befindet sich heute die Bierspünderstraße",
+    "illustration": ""
+  },
+  {
+    "name": "Blohms Gang",
+    "address": "An der Obertrave 50 ↔ Effengrube",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Brandes Hof",
+    "address": "Mühlenstraße 79",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Hof ist zwar offen, jedoch ist der Aufenthalt für Unbefugte nicht gestattet.",
+    "illustration": ""
+  },
+  {
+    "name": "Brandweinbrenner Gang",
+    "address": "Engelsgrube",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Bruskow’s Hof",
+    "address": "Wahmstraße Nr. 49",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "Blick die Gasse hinab zum Zugangstor",
+    "illustration": ""
+  },
+  {
+    "name": "Carstens Hof",
+    "address": "Aegidienstraße 25",
+    "accessibility": "",
+    "coords": "Lage53.86450910.687093",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Derliens Gang",
+    "address": "Mühlenstraße 43",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Donats Gang",
+    "address": "An der Obertrave 40",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Dornes Hof",
+    "address": "Schlumacherstraße 15–23",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "ältester Stiftshof Lübecks",
+    "illustration": ""
+  },
+  {
+    "name": "Dreitonnengang",
+    "address": "Marlesgrube",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Dunkelgrüner Gang",
+    "address": "Engelswisch 20",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "endet im Hellgrünen Gang",
+    "illustration": ""
+  },
+  {
+    "name": "Durchgang",
+    "address": "Marlesgrube 56 ↔ Depenau 45",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Durchgang",
+    "address": "Wahmstraße 46 ↔ Aegidienstraße 47",
+    "accessibility": "",
+    "coords": "Lage53.86465210.6883",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Füchtingshof",
+    "address": "Glockengießerstraße 25",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Das Innere des Füchtingshofs diente Friedrich Wilhelm Murnau für seinen Film Nosferatu – Eine Symphonie des Grauens bei seinen Lübecker Außenaufnahmen in zwei Szenen als Kulisse.",
+    "illustration": ""
+  },
+  {
+    "name": "Fünfbudengang",
+    "address": "Kleine Gröpelgrube 18",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Garbereiter Gang",
+    "address": "Engelsgrube",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Gemeinschaftsgang",
+    "address": "Große Gröpelgrube 37",
+    "accessibility": "nachts geschlossen",
+    "coords": "Lage53.87144710.692758",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Glandorps Gang",
+    "address": "Glockengießerstraße 41–43",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "Zugang über Glandorps Hof",
+    "illustration": ""
+  },
+  {
+    "name": "Glandorps Hof",
+    "address": "Glockengießerstraße 45–53",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Glockengiesser Hof",
+    "address": "Engelsgrube 65",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Graths Gang",
+    "address": "Glockengießerstraße 70",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Grüner Gang",
+    "address": "Fischergrube 44",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Grützmacher-Hof",
+    "address": "Effengrube 14",
+    "accessibility": "offen",
+    "coords": "Lage53.86131910.682887",
+    "annotation": "Verbindung zu Krusses Hof und Rademacher Gang (beide Hartengrube) sowie Stüwes Gang (An der Obertrave)",
+    "illustration": ""
+  },
+  {
+    "name": "Haasenhof",
+    "address": "Dr.-Julius-Leber-Straße 37/39",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Haudels Gang",
+    "address": "Schlumacherstraße",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Hellgrüner Gang",
+    "address": "Engelswisch 28",
+    "accessibility": "nachts geschlossen",
+    "coords": "",
+    "annotation": "endet im Dunkelgrünen Gang",
+    "illustration": ""
+  },
+  {
+    "name": "Hertzigs Gang",
+    "address": "Marlesgrube 17",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Heynaths Gang",
+    "address": "Hartengrube 44",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Verb. zu Kalands Gang (Hartengrube)",
+    "illustration": ""
+  },
+  {
+    "name": "Höppners Gang",
+    "address": "Petersilienstraße 10",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Ilhornstift",
+    "address": "Glockengießerstraße 39",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Im Reinfeld",
+    "address": "An der Obertrave",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kalands Gang",
+    "address": "Hartengrube 52",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Verb. zu Heynaths Gang und Rosenhof",
+    "illustration": ""
+  },
+  {
+    "name": "Kalands Gang",
+    "address": "Hundestraße 31",
+    "accessibility": "",
+    "coords": "Lage53.86831410.690971",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Käselaus Gang",
+    "address": "Große Burgstraße 41",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kattundrucker-Gang",
+    "address": "Wakenitzmauer 132",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kellings Gang",
+    "address": "Dankwartsgrube 9",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Ketten-Gang",
+    "address": "Langer Lohberg 33",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kettner’s Gang",
+    "address": "Fischergrube 26",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kinderhüschengang",
+    "address": "Kleine Gröpelgrube 26",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kindts Gang",
+    "address": "Hüxstraße 122",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Kreuzgang",
+    "address": "Große Kiesau 5",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Krusenhof",
+    "address": "Engelsgrube 26",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "1540 als \"Albert-Klever-Gang\" erwähnt, 1545 von Hans Kruse gestiftet[2]",
+    "illustration": ""
+  },
+  {
+    "name": "Krusses Hof",
+    "address": "Hartengrube (14?)",
+    "accessibility": "",
+    "coords": "Lage53.86163810.682701",
+    "annotation": "Verbindung zu Grützmacher Hof",
+    "illustration": ""
+  },
+  {
+    "name": "Küter-Gang",
+    "address": "An der Mauer 12",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Lödings Hof",
+    "address": "Glockengießerstraße 77",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Lüngreens Gang",
+    "address": "Fischergrube 38",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Verbindung zu Bäcker Gang",
+    "illustration": "60px"
+  },
+  {
+    "name": "Medings Gang",
+    "address": "Große Gröpelgrube 22",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Mertens Gang",
+    "address": "Tünkenhagen 26",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Nagels Gang",
+    "address": "Wakenitzmauer 70",
+    "accessibility": "nachts geschlossen",
+    "coords": "Lage53.87174610.69309",
+    "annotation": "Verbindung zu Adlergang und Vereinigungsgang",
+    "illustration": ""
+  },
+  {
+    "name": "Nagelschmieds-Gang",
+    "address": "Dankwartsgrube 31",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Nagelshof",
+    "address": "Dankwartsgrube",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Nöltings Gang",
+    "address": "Glockengießerstraße 64",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Verbindung zur Hundestraße 95 und Wakenitzmauer 164",
+    "illustration": ""
+  },
+  {
+    "name": "Pelzer-Gang",
+    "address": "Hüxstraße 68",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Petersens Gang",
+    "address": "An der Obertrave 55",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "Gang bis zum Ende offen, Hof dahinter jedoch verschlossen.",
+    "illustration": ""
+  },
+  {
+    "name": "Pinciers Gang",
+    "address": "Wakenitzmauer 30",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Qualmanns Gang",
+    "address": "Engelsgrube 32",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Rademacher-Gang",
+    "address": "Hartengrube 9",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Verbindung zu Grützmacher Hof",
+    "illustration": ""
+  },
+  {
+    "name": "Rehhagens Gang",
+    "address": "An der Obertrave 37",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Römisches Reich",
+    "address": "Mühlenstraße 91",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Roepers Gang",
+    "address": "Rosenstraße 18",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Rosengang",
+    "address": "Rosenstraße 17",
+    "accessibility": "offen",
+    "coords": "Lage53.87185310.692076",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Rosen-Gang",
+    "address": "Rosengarten 8",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Rosenhof",
+    "address": "An der Obertrave 29",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Verb. zu Kalands Gang (Hartengrube)",
+    "illustration": ""
+  },
+  {
+    "name": "Scheune Hof",
+    "address": "An der Mauer 146",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schiffer Hof",
+    "address": "Engelsgrube 11–17",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Die Statue war eine Karikatur Bismarcks",
+    "illustration": ""
+  },
+  {
+    "name": "Schillings Hof",
+    "address": "Hundestraße 83",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schlachter Gang",
+    "address": "Engelsgrube 48",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schmützs Gang",
+    "address": "Glockengießerstraße 83",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schornsteinfegergang",
+    "address": "Hundestraße 50",
+    "accessibility": "",
+    "coords": "Lage53.86807110.691749",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schröder’s Gang",
+    "address": "Kleine Altefähre 13",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Schwans Hof",
+    "address": "Hartengrube 18",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "ältester Wohngang Lübecks, errichtet 1296 von Johannes von Swane",
+    "illustration": ""
+  },
+  {
+    "name": "Schwolls Thorweg",
+    "address": "Glockengießerstraße 52",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Sievers Thorweg",
+    "address": "Engelsgrube 31",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Spinnrademacher Gang",
+    "address": "Engelsgrube 21",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Spönkenhof",
+    "address": "Langer Lohberg 21",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "St.-Jürgen-Gang",
+    "address": "Kleine Petersgrube 4",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Stietens Gang",
+    "address": "Hartengrube 14",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Standort des Stiten-Armenhauses",
+    "illustration": ""
+  },
+  {
+    "name": "Storms Gang",
+    "address": "Stavenstraße 16",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Struß’ Thorweg",
+    "address": "Rosenstraße 16 ↔ Große Burgstraße 51",
+    "accessibility": "nachts geschlossen",
+    "coords": "Lage53.87179710.691808",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Stüwes Gang",
+    "address": "An der Obertrave 46",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Tanks Gang",
+    "address": "Stavenstraße 41",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Thorweg",
+    "address": "Engelswisch 33",
+    "accessibility": "offen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Thorweg",
+    "address": "Dankwartsgrube 70",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "v. Dornes Hof",
+    "address": "Schlumacherstraße 15–23",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Von-Höveln-Gang",
+    "address": "Hundestraße 57",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Von-Höveln-Gang",
+    "address": "Wahmstraße 75",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Gestiftet 1483 von Tidemann Evinghusen",
+    "illustration": ""
+  },
+  {
+    "name": "Vereinigungsgang",
+    "address": "Hundestraße 30",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Vereinigungsgang",
+    "address": "Rosenstraße 25",
+    "accessibility": "nachts geschlossen",
+    "coords": "Lage53.8716710.692001",
+    "annotation": "Verbindung zu Adlergang und Nagels Gang",
+    "illustration": ""
+  },
+  {
+    "name": "Vereinsstraße",
+    "address": "Krähenstraße 24",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Verbindung zu Behrends Gang",
+    "illustration": ""
+  },
+  {
+    "name": "Warnckes Gang",
+    "address": "Glockengießerstraße 93",
+    "accessibility": "geschlossen",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Wehde",
+    "address": "Mengstraße 8",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "Pastorenwohnungen von St. Marien\nnicht mehr vorhanden",
+    "illustration": ""
+  },
+  {
+    "name": "Weimann's Hof",
+    "address": "Große Kiesau 8",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Weintraubengang",
+    "address": "Hundestraße 43",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Wohngänge",
+    "address": "An der Obertrave",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Wohngänge",
+    "address": "Große Kiesau",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Wulffs Gang",
+    "address": "Stavenstraße 21",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Zerrahns Gang",
+    "address": "Engelsgrube 73",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Zobels Gang",
+    "address": "Schlumacherstraße 29",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Zobels Hof",
+    "address": "Schlumacherstraße 5",
+    "accessibility": "",
+    "coords": "",
+    "annotation": "",
+    "illustration": ""
+  },
+  {
+    "name": "Zöllners Hof",
+    "address": "Depenau 10",
+    "accessibility": "",
+    "coords": "Lage53.8647510.68275",
+    "annotation": "",
+    "illustration": ""
+  }
+]
