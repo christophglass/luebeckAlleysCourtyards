@@ -1,8 +1,9 @@
+import { ProviderLeafletProvider } from './../../providers/provider-leaflet/provider-leaflet';
+import { GaengeModalComponent } from './../../components/gaenge-modal/gaenge-modal';
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { GaengeProvider, IPointOfInterest } from './../../providers/providers-gaenge/providers-gaenge';
 import leaflet from 'leaflet';
-
 
 /**
  * Generated class for the GaengePage page.
@@ -22,7 +23,12 @@ export class GaengePage {
   @ViewChild('map') mapContainer: ElementRef;
   private _map: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public gaengeProvider: GaengeProvider) { }
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    public gaengeProvider: GaengeProvider,
+    public leafletProvider: ProviderLeafletProvider,
+    public modalCtrl: ModalController) { }
 
   ionViewDidEnter() {
     this.gaengeProvider.GetGaenge().subscribe(
@@ -35,20 +41,19 @@ export class GaengePage {
   }
 
   private _loadMap() {
-    this._map = leaflet.map("map").fitWorld();
-    leaflet.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attributions: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-      maxZoom: 18
-    }).addTo(this._map);
-    this._map.setView([53.867698, 10.685933], 14);
+    this._map = this.leafletProvider.GetInitialMap();
     this._gaengeData.forEach((poi: IPointOfInterest) => {
 
       let markerGroup = leaflet.featureGroup();
       let marker: any = leaflet.marker([poi.lat, poi.lang]).on('click', () => {
-        alert('Marker clicked');
+        this._presentGangModal(poi);
       });
       markerGroup.addLayer(marker);
       this._map.addLayer(markerGroup);
     });
+  }
+
+  private _presentGangModal(poi: IPointOfInterest) {
+    this.modalCtrl.create(GaengeModalComponent, { poi: poi }).present();
   }
 }
