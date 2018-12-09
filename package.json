@@ -1,8 +1,8 @@
 {
   "name": "luebeckAlleysCourtyards",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Christoph Glaß",
+  "homepage": "https://github.com/christophglass/luebeckAlleysCourtyards",
   "private": true,
   "scripts": {
     "start": "ionic-app-scripts serve",
