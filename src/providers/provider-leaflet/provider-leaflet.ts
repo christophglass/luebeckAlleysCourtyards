@@ -9,12 +9,12 @@ import leaflet from 'leaflet';
   and Angular DI.
 */
 
-const tileLayer: string = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-const attributions: string = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>';
+const tileLayer: string = 'http://tile.stamen.com/toner/{z}/{x}/{y}.png';
+const attributions: string = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.';
 const maxZoom: number = 18;
-const minZoom: number = 14;
-const centerLat: number = 53.8654673;
-const centerLang: number = 10.6865593;
+const minZoom: number = 15;
+const centerLat: number = 53.867021;
+const centerLang: number = 10.687372;
 const bounds = leaflet.latLng(centerLat, centerLang).toBounds(2500);
 
 @Injectable()
@@ -35,9 +35,9 @@ export class ProviderLeafletProvider {
   }
 
   private _getMap(mapId: string): any {
-    const map = leaflet.map(mapId).fitWorld().zoomIn();
+    const map = leaflet.map(mapId).fitWorld();
     leaflet.tileLayer(tileLayer, {
-      attributions: attributions,
+      attribution: attributions,
       maxZoom: maxZoom,
       minZoom: minZoom,
     }).addTo(map);
@@ -46,3 +46,4 @@ export class ProviderLeafletProvider {
     return map;
   }
 }
+

@@ -42,8 +42,14 @@ export class GaengePage {
 
   private _loadMap() {
     this._map = this.leafletProvider.GetInitialMap();
-    this._gaengeData.forEach((poi: IPointOfInterest) => {
+    const icon = leaflet.divIcon({
 
+      html: '<i class="fa fa-map-marker-alt" style="color: blue"></i>',
+      iconSize: null,
+      className: 'marker'
+
+    });
+    this._gaengeData.forEach((poi: IPointOfInterest) => {
       let markerGroup = leaflet.featureGroup();
       let marker: any = leaflet.marker([poi.lat, poi.lang]).on('click', () => {
         this._presentGangModal(poi);
