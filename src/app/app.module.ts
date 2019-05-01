@@ -13,6 +13,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GaengeProvider } from '../providers/providers-gaenge/providers-gaenge';
 import { ProviderLeafletProvider } from '../providers/provider-leaflet/provider-leaflet';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ProviderLeafletProvider } from '../providers/provider-leaflet/provider-
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     GaengeProvider,
-    ProviderLeafletProvider
+    ProviderLeafletProvider,
+    Geolocation
   ]
 })
 export class AppModule { }

@@ -3,6 +3,7 @@ import { GaengeModalComponent } from './../../components/gaenge-modal/gaenge-mod
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { GaengeProvider, IPointOfInterest } from './../../providers/providers-gaenge/providers-gaenge';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 import leaflet from 'leaflet';
 
 /**
@@ -28,13 +29,15 @@ export class GaengePage {
     public navParams: NavParams,
     public gaengeProvider: GaengeProvider,
     public leafletProvider: ProviderLeafletProvider,
-    public modalCtrl: ModalController) { }
+    public modalCtrl: ModalController,
+    public geolocation: Geolocation) { }
 
   ionViewDidEnter() {
     this.gaengeProvider.GetGaenge().subscribe(
       data => {
         this._gaengeData = data;
         this._loadMap();
+        this._subscribeGeolocation();
       },
       error => { console.error(error); }
     );
@@ -42,13 +45,6 @@ export class GaengePage {
 
   private _loadMap() {
     this._map = this.leafletProvider.GetInitialMap();
-    const icon = leaflet.divIcon({
-
-      html: '<i class="fa fa-map-marker-alt" style="color: blue"></i>',
-      iconSize: null,
-      className: 'marker'
-
-    });
     this._gaengeData.forEach((poi: IPointOfInterest) => {
       let markerGroup = leaflet.featureGroup();
       let marker: any = leaflet.marker([poi.lat, poi.lang]).on('click', () => {
@@ -61,5 +57,17 @@ export class GaengePage {
 
   private _presentGangModal(poi: IPointOfInterest) {
     this.modalCtrl.create(GaengeModalComponent, { poi: poi }).present();
+  }
+
+  private _subscribeGeolocation() {
+    this.geolocation.watchPosition().subscribe(
+      data => {
+        if (data.coords) {
+          const markerGroup = leaflet.featureGroup();
+          const marker: any = leaflet.marker([data.coords.latitude, data.coords.longitude]);
+          markerGroup.addLayer(marker);
+          this._map.addLayer(markerGroup);
+        }
+      });
   }
 }
