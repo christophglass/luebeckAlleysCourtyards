@@ -32,7 +32,8 @@ export class GaengeModalComponent {
   ionViewDidEnter() {
     this._map = this._leafletProvider.GetDetailMap(this._poi);
     const markerGroup = leaflet.featureGroup();
-    const marker: any = leaflet.marker([this._poi.lat, this._poi.lang]);
+    const poiMarker: any = leaflet.AwesomeMarkers.icon({ icon: 'fa-dungeon', prefix: 'fa', markerColor: 'blue' });
+    const marker: any = leaflet.marker([this._poi.lat, this._poi.lang], { icon: poiMarker });
     marker.bindPopup(this._poi.address).openPopup();
     markerGroup.addLayer(marker);
     this._map.addLayer(markerGroup);

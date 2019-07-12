@@ -47,7 +47,8 @@ export class GaengePage {
     this._map = this.leafletProvider.GetInitialMap();
     this._gaengeData.forEach((poi: IPointOfInterest) => {
       let markerGroup = leaflet.featureGroup();
-      let marker: any = leaflet.marker([poi.lat, poi.lang]).on('click', () => {
+      const poiMarker: any = leaflet.AwesomeMarkers.icon({ icon: 'fa-dungeon', prefix: 'fa', markerColor: 'blue' });
+      let marker: any = leaflet.marker([poi.lat, poi.lang], { icon: poiMarker }).on('click', () => {
         this._presentGangModal(poi);
       });
       markerGroup.addLayer(marker);
@@ -64,7 +65,9 @@ export class GaengePage {
       data => {
         if (data.coords) {
           const markerGroup = leaflet.featureGroup();
-          const marker: any = leaflet.marker([data.coords.latitude, data.coords.longitude]);
+
+          const homeMarker: any = leaflet.AwesomeMarkers.icon({ icon: 'fa-home', prefix: 'fa', markerColor: 'green' });
+          const marker: any = leaflet.marker([data.coords.latitude, data.coords.longitude], { icon: homeMarker });
           markerGroup.addLayer(marker);
           this._map.addLayer(markerGroup);
         }
